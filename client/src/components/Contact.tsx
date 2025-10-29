@@ -127,6 +127,30 @@ Message: ${formData.message}`
               </div>
               <p className="text-green-50 mb-4">Pour une réponse plus rapide, utilisez le formulaire ci-contre qui ouvrira WhatsApp automatiquement.</p>
             </div>
+
+            {/* Google Maps */}
+            <div className="bg-gray-800 rounded-sm overflow-hidden shadow-xl">
+              <div className="p-4 border-b border-gray-700">
+                <h4 className="text-xl font-bold text-white flex items-center gap-2">
+                  <svg className="w-5 h-5 text-yellow-600" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                  </svg>
+                  Notre Localisation
+                </h4>
+              </div>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.4089474879566!2d10.180089076704766!3d36.86159897223314!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd34d0e6d6f0c1%3A0x9d3c3a4c4c4c4c4c!2s3%20Avenue%20Hedi%20Nouira%2C%20Ariana!5e0!3m2!1sfr!2stn!4v1635000000000!5m2!1sfr!2stn"
+                width="100%"
+                height="300"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Cabinet Zaid Hammami Location"
+                className="w-full"
+              />
+            </div>
           </div>
 
           {/* Contact Form */}
