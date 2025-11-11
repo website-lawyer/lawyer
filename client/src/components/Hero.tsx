@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
             href="#services" 
             className="bg-transparent border-2 border-white text-white hover:bg-white hover:text-gray-900 px-8 py-4 text-lg font-semibold rounded-sm transition-all duration-300"
           >
-            Nos Spécialités
+            Nos Services
           </a>
         </div>
         
